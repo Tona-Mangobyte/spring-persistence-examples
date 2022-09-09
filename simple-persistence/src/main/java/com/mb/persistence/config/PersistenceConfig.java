@@ -6,6 +6,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories()
+@EnableJpaRepositories("com.mb.persistence.repositories")
 public class PersistenceConfig {
 }
